@@ -20,5 +20,5 @@ if (namber > 0 && namber < 8)
 }
 else
 {
-    Console.WriteLine("Веденное вами число " + namber + " не соответствует условию ввода.");
+    Console.WriteLine("Введенное вами число " + namber + " не соответствует условию ввода.");
 }
