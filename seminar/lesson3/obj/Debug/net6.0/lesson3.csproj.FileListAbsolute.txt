@@ -1,0 +1,15 @@
+D:\User\Documents\geekbrains.ru\College\seminar\lesson3\bin\Debug\net6.0\lesson3.exe
+D:\User\Documents\geekbrains.ru\College\seminar\lesson3\bin\Debug\net6.0\lesson3.deps.json
+D:\User\Documents\geekbrains.ru\College\seminar\lesson3\bin\Debug\net6.0\lesson3.runtimeconfig.json
+D:\User\Documents\geekbrains.ru\College\seminar\lesson3\bin\Debug\net6.0\lesson3.dll
+D:\User\Documents\geekbrains.ru\College\seminar\lesson3\bin\Debug\net6.0\lesson3.pdb
+D:\User\Documents\geekbrains.ru\College\seminar\lesson3\obj\Debug\net6.0\lesson3.csproj.AssemblyReference.cache
+D:\User\Documents\geekbrains.ru\College\seminar\lesson3\obj\Debug\net6.0\lesson3.GeneratedMSBuildEditorConfig.editorconfig
+D:\User\Documents\geekbrains.ru\College\seminar\lesson3\obj\Debug\net6.0\lesson3.AssemblyInfoInputs.cache
+D:\User\Documents\geekbrains.ru\College\seminar\lesson3\obj\Debug\net6.0\lesson3.AssemblyInfo.cs
+D:\User\Documents\geekbrains.ru\College\seminar\lesson3\obj\Debug\net6.0\lesson3.csproj.CoreCompileInputs.cache
+D:\User\Documents\geekbrains.ru\College\seminar\lesson3\obj\Debug\net6.0\lesson3.dll
+D:\User\Documents\geekbrains.ru\College\seminar\lesson3\obj\Debug\net6.0\refint\lesson3.dll
+D:\User\Documents\geekbrains.ru\College\seminar\lesson3\obj\Debug\net6.0\lesson3.pdb
+D:\User\Documents\geekbrains.ru\College\seminar\lesson3\obj\Debug\net6.0\lesson3.genruntimeconfig.cache
+D:\User\Documents\geekbrains.ru\College\seminar\lesson3\obj\Debug\net6.0\ref\lesson3.dll
