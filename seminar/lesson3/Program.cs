@@ -108,12 +108,7 @@ else
 {
 Console.WriteLine("Вы ввели не правельное число");
 }
-
-
-
-
-
-// Console.ReadKey();
+ Console.ReadKey();
 // Console.Clear(); // Clear
 // Console.WriteLine("Введите число.");
 // Console.ReadLine();
