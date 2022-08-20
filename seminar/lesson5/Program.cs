@@ -26,7 +26,7 @@ int[] FillingArrayRnd(int ArraySize, int MinRnd, int MaxRnd) // заполняе
 }
 int[] MyArray = FillingArrayRnd(Size, 100, 999);
 Console.WriteLine($"\n Массив созданный по вашиму условию выглядит так: \n  {string.Join(" ", MyArray)}");
-Console.WriteLine("Сумма четных чисел равна " + SumEvenNumber(MyArray));
+Console.WriteLine("Количество четных чисел равна " + SumEvenNumber(MyArray));
 int SumEvenNumber(int[] Array)
 {
     int Sum = 0;
@@ -76,6 +76,5 @@ for (int i = 1; i < Size3; i++)
         Max = Array_3[i];
     }
 }
-Console.WriteLine("Разница между максимальным и минимальным равна: +(Max - Min)");
+Console.WriteLine("Разница между максимальным и минимальным равна:" + (Max - Min));
 
-пш
