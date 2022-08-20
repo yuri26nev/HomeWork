@@ -13,18 +13,64 @@
 // 6, 1, 33 -> [6, 1, 33]
 
 Console.Clear();
-int extent (int A,int B){
+int extent (int A,int B)
+{
     int rezalty = A;
     for (int i = 1; i < B ; i++)
-    {        rezalty = rezalty*A;й
-    Console.WriteLine(i+"="+rezalty);
-    }
+    {        rezalty = rezalty*A;
+       }
 return rezalty;
  }
 
-Console.WriteLine("input namber A");
+Console.WriteLine("Программа принимает на вход два числа (A и B) и возводит число A в натуральную степень B.");
+Console.WriteLine("Ввидите число A");
 int A = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("input namber B");
+Console.WriteLine("Bвидите число В");
 int B = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Результат " + A + "^" + B + "="+ extent(A,B));
 
+Console.WriteLine("Для продолжения нажми любую клавишу.");
+Console.ReadKey();
+
+Console.Clear();
+Console.WriteLine("Программа принимает на вход число и выдаёт сумму цифр в числе.");
+Console.Write("Введите число N: ");
+int Data = Convert.ToInt32(Console.ReadLine());
+
+int SumNumber(int Data)
+{
+
+    int counter = Convert.ToString(Data).Length;
+    int calculation = 0;
+    int result = 0;
+
+    for (int i = 0; i < counter; i++)
+    {
+        calculation = Data - Data % 10;
+        result = result + (Data - calculation);
+        Data = Data / 10;
+    }
+    return result;
+}
+
+int sumNumber = SumNumber(Data);
+Console.WriteLine("Сумма цифр в числе: " + sumNumber);
+
+Console.WriteLine("Для продолжения нажми любую клавишу.");
+Console.ReadKey();
+
+Console.Clear();
+Console.WriteLine("Привет, данная программа задаёт массив из 8 элементов, заполняет его случайными числами и выводит их на экран.");
+Console.WriteLine("Для запуска программы нажми любую клавишу.");
+Console.ReadKey();
+int [] numbers = new int[8];
+for (int i = 0; i < numbers.Length; i++)
+ {
+    numbers [i] = new Random().Next(0, 11);
+    Console.Write("["+ Method (i) + "], ");
+ }
+int Method (int a)
+{
+    return numbers[a];
+}
+Console.ReadKey (); 
